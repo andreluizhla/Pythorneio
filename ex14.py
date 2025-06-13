@@ -9,4 +9,4 @@ if lado1 + lado2 > lado3 and lado1 + lado3 > lado2 and lado2 + lado3 > lado1:
     area = (s * (s-lado1) * (s-lado2) * (s-lado3)) ** (1/2)
     print(f"A área do triângulo é: {area:.3f}")
 else:
-    print("Não")
+    print("Os lados informados não formam um triângulo")
